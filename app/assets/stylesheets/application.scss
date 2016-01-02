@@ -123,3 +123,54 @@ body {
 	color: #565a5c;
 	text-decoraction: none;
 }
+
+label {
+	color: #565a5c;
+	font-sixe: 1.1em;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+select {
+	color: #565a5c;
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 10px;
+	appearnce: none;
+	-moz-appearance: none; /* Firefox - turns off styling so we can use our own */
+	-webkit-appearance: none;  /* Safari/Chrome - turns off styling so we can use our own */
+}
+
+.select:before {
+	content: '\25bc'; /* this means down arrow! */
+	font-size: 1.2em;
+	position: absolute;
+	color: #82888A;
+	top: 40px;
+	right: 30px;
+	transform: scale(0.84, 0.42)
+}
+
+input[type="checkbox"] {
+	height: 1.25em;
+	width: 1.25em;
+	margin-bottom: -0.25em;
+	margin-right: 5px;
+	vertical-align: top;
+	border: 1px solid #c4c4c4;
+	boder-radius: 2px;
+	appearnce: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+input[type="checkbox"]:checked:before {
+	content: '\2713'; /* this means checkmark! */
+	font-size: 0.95em;
+	position: absolute;
+	color: #ff5a5f;
+	width: 1.25em;
+	text-align: center;
+}
